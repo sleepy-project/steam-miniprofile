@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="noindex, nofollow, nostore">
 <meta name="referrer" content="no-referrer">
 
 
@@ -26,7 +26,7 @@
       let language = searchParams.get('lang') ? searchParams.get('lang') : 'english';
       let featuredGame = searchParams.get('appId') ? searchParams.get('appId') : '';
       let centered = searchParams.get('centered') ? searchParams.get('centered') : false;
-      let corsURL = `${corsHost}/https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F${steamId}?l=${language}&appId=${featuredGame}`;
+      let corsURL = `${corsHost}/https://steamcommunity.com/miniprofile/${steamId}?l=${language}&appId=${featuredGame}`;
       let steamURL = `https://steamcommunity.com/id/${vanityId}`;
       
       if(steamId === 'YOUR_ACCOUNTID_HERE') {
