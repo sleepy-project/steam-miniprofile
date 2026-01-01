@@ -1,3 +1,24 @@
+# steam-miniprofile
+
+sleepy 使用的 steam miniprofile 反代部署
+
+## 自托管
+
+```bash
+cd backend
+npm i
+npm run start
+# service -> :3000
+```
+
+> [!TIP]
+> 另有 Cloudflare Snippet 版本可用: [`backend/snippet.js`](./backend/snippet.js)
+
+> [!TIP]
+> 以下为原项目 README.
+
+---
+
 # A little tool to feature Steam's miniprofile on your website 
 
 ### Now come with an interactive builder: https://gamer2810.github.io/miniprofile-builder/
