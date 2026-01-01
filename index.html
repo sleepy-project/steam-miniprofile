@@ -19,7 +19,7 @@
     $(function () {
       let searchParams = new URLSearchParams(window.location.search);
       let corsHost = "https://miniprofile-rev.siiway.top"
-      let steamId = searchParams.get('accountId') ? searchParams.get('accountId') : '238158335';
+      let steamId = searchParams.get('accountId') ? searchParams.get('accountId') : '76561199733292625';
       let interactive = searchParams.get('interactive') ? searchParams.get('interactive') : false;
       let vanityId = searchParams.get('vanityId') ? searchParams.get('vanityId') : '';
       // For list of available languages, check out README on https://github.com/gamer2810/steam-miniprofile
@@ -30,7 +30,7 @@
       let steamURL = `https://steamcommunity.com/id/${vanityId}`;
       
       if(steamId === 'YOUR_ACCOUNTID_HERE') {
-        steamId = '238158335';
+        steamId = '76561199733292625';
       }
 
       if (centered == 'true') {
